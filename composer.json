@@ -1,0 +1,23 @@
+{
+  "name": "ysb/dtmcli-php",
+  "type": "library",
+  "authors": [
+    {
+      "name": "kxg3030",
+      "email": "657920579@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sett\\Dtmcli\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "ext-sockets": "*",
+    "ext-json": "*"
+  },
+  "version": "v1.0.2",
+  "license": "MIT"
+}
